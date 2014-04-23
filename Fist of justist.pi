@@ -1,1 +1,11 @@
 # author: Hendrix2005
+import turtle
+hendrix = turtle.Turtle()
+hendrix.forward(100)
+hendrix.forward(100)
+hendrix.left(90)
+
+
+
+
+
