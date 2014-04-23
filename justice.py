@@ -2,14 +2,16 @@
 
 import turtle
 hendrix = turtle.Turtle()
-sides = 5
+sides = 1000
 angle = 150 - (180 * (sides - 2) / sides)
-length = 100
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+length = 3
+colors = ["red", "blue", "yellow", "green", "pink", "magenta"]
+numbers = range(1, 201)
 
 for number in numbers:
-	hendrix.forward(100)
-	hendrix.left(angle)
+	for color in colors:
+		hendrix.color(color)
+		forward
+		
 
 
